@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A01EB30156A4DCC00EAA090 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A01EB2C156A4DCC00EAA090 /* Icon-72.png */; };
+		2A01EB31156A4DCC00EAA090 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A01EB2D156A4DCC00EAA090 /* Icon-72@2x.png */; };
+		2A01EB32156A4DCC00EAA090 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A01EB2E156A4DCC00EAA090 /* Icon.png */; };
+		2A01EB33156A4DCC00EAA090 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A01EB2F156A4DCC00EAA090 /* Icon@2x.png */; };
+		2A7B5D0015A16BEA00B7D712 /* libJOBluetooth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7B5CFE15A16B8400B7D712 /* libJOBluetooth.a */; };
+		2A92753E153EA11E00B4829D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A92753D153EA11E00B4829D /* UIKit.framework */; };
+		2A927540153EA11E00B4829D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A92753F153EA11E00B4829D /* Foundation.framework */; };
+		2A927542153EA11E00B4829D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A927541153EA11E00B4829D /* CoreGraphics.framework */; };
+		2A927548153EA11E00B4829D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A927546153EA11E00B4829D /* InfoPlist.strings */; };
+		2A92754A153EA11E00B4829D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A927549153EA11E00B4829D /* main.m */; };
+		2A92754E153EA11E00B4829D /* JOBTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92754D153EA11E00B4829D /* JOBTAppDelegate.m */; };
+		2A927551153EA11E00B4829D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92754F153EA11E00B4829D /* MainStoryboard_iPhone.storyboard */; };
+		2A927554153EA11E00B4829D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A927552153EA11E00B4829D /* MainStoryboard_iPad.storyboard */; };
+		2A927557153EA11E00B4829D /* JOBTFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A927556153EA11E00B4829D /* JOBTFirstViewController.m */; };
+		2A927559153EA11E00B4829D /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A927558153EA11E00B4829D /* first.png */; };
+		2A92755B153EA11E00B4829D /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A92755A153EA11E00B4829D /* first@2x.png */; };
+		2A92755E153EA11E00B4829D /* JOBTSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92755D153EA11E00B4829D /* JOBTSecondViewController.m */; };
+		2A927560153EA11E00B4829D /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A92755F153EA11E00B4829D /* second.png */; };
+		2A927562153EA11E00B4829D /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A927561153EA11E00B4829D /* second@2x.png */; };
+		2A927578153EAA6500B4829D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A927577153EAA6500B4829D /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A01EB2C156A4DCC00EAA090 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "BTDemo/Icon-72.png"; sourceTree = "<group>"; };
+		2A01EB2D156A4DCC00EAA090 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "BTDemo/Icon-72@2x.png"; sourceTree = "<group>"; };
+		2A01EB2E156A4DCC00EAA090 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = BTDemo/Icon.png; sourceTree = "<group>"; };
+		2A01EB2F156A4DCC00EAA090 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "BTDemo/Icon@2x.png"; sourceTree = "<group>"; };
+		2A7B5CFE15A16B8400B7D712 /* libJOBluetooth.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libJOBluetooth.a; path = "BTDemo/JOBluetooth/Release-iphoneos/libJOBluetooth.a"; sourceTree = "<group>"; };
+		2A927539153EA11E00B4829D /* BTDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A92753D153EA11E00B4829D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A92753F153EA11E00B4829D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A927541153EA11E00B4829D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A927545153EA11E00B4829D /* BTDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTDemo-Info.plist"; sourceTree = "<group>"; };
+		2A927547153EA11E00B4829D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A927549153EA11E00B4829D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A92754B153EA11E00B4829D /* BTDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTDemo-Prefix.pch"; sourceTree = "<group>"; };
+		2A92754C153EA11E00B4829D /* JOBTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JOBTAppDelegate.h; sourceTree = "<group>"; };
+		2A92754D153EA11E00B4829D /* JOBTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JOBTAppDelegate.m; sourceTree = "<group>"; };
+		2A927550153EA11E00B4829D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2A927553153EA11E00B4829D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		2A927555153EA11E00B4829D /* JOBTFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JOBTFirstViewController.h; sourceTree = "<group>"; };
+		2A927556153EA11E00B4829D /* JOBTFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JOBTFirstViewController.m; sourceTree = "<group>"; };
+		2A927558153EA11E00B4829D /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = BTDemo/first.png; sourceTree = "<group>"; };
+		2A92755A153EA11E00B4829D /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "first@2x.png"; path = "BTDemo/first@2x.png"; sourceTree = "<group>"; };
+		2A92755C153EA11E00B4829D /* JOBTSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JOBTSecondViewController.h; sourceTree = "<group>"; };
+		2A92755D153EA11E00B4829D /* JOBTSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JOBTSecondViewController.m; sourceTree = "<group>"; };
+		2A92755F153EA11E00B4829D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = BTDemo/second.png; sourceTree = "<group>"; };
+		2A927561153EA11E00B4829D /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "BTDemo/second@2x.png"; sourceTree = "<group>"; };
+		2A927577153EAA6500B4829D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A927536153EA11E00B4829D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7B5D0015A16BEA00B7D712 /* libJOBluetooth.a in Frameworks */,
+				2A927578153EAA6500B4829D /* CoreBluetooth.framework in Frameworks */,
+				2A92753E153EA11E00B4829D /* UIKit.framework in Frameworks */,
+				2A927540153EA11E00B4829D /* Foundation.framework in Frameworks */,
+				2A927542153EA11E00B4829D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A01EB01156A4D9F00EAA090 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A927558153EA11E00B4829D /* first.png */,
+				2A92755A153EA11E00B4829D /* first@2x.png */,
+				2A92755F153EA11E00B4829D /* second.png */,
+				2A927561153EA11E00B4829D /* second@2x.png */,
+				2A92754F153EA11E00B4829D /* MainStoryboard_iPhone.storyboard */,
+				2A927552153EA11E00B4829D /* MainStoryboard_iPad.storyboard */,
+				2A01EB2C156A4DCC00EAA090 /* Icon-72.png */,
+				2A01EB2D156A4DCC00EAA090 /* Icon-72@2x.png */,
+				2A01EB2E156A4DCC00EAA090 /* Icon.png */,
+				2A01EB2F156A4DCC00EAA090 /* Icon@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A92752E153EA11E00B4829D = {
+			isa = PBXGroup;
+			children = (
+				2A01EB01156A4D9F00EAA090 /* Resources */,
+				2A927543153EA11E00B4829D /* BTModule */,
+				2A92753C153EA11E00B4829D /* Frameworks */,
+				2A92753A153EA11E00B4829D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A92753A153EA11E00B4829D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A927539153EA11E00B4829D /* BTDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A92753C153EA11E00B4829D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A7B5CFE15A16B8400B7D712 /* libJOBluetooth.a */,
+				2A927577153EAA6500B4829D /* CoreBluetooth.framework */,
+				2A92753D153EA11E00B4829D /* UIKit.framework */,
+				2A92753F153EA11E00B4829D /* Foundation.framework */,
+				2A927541153EA11E00B4829D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A927543153EA11E00B4829D /* BTModule */ = {
+			isa = PBXGroup;
+			children = (
+				2A92754C153EA11E00B4829D /* JOBTAppDelegate.h */,
+				2A92754D153EA11E00B4829D /* JOBTAppDelegate.m */,
+				2A927555153EA11E00B4829D /* JOBTFirstViewController.h */,
+				2A927556153EA11E00B4829D /* JOBTFirstViewController.m */,
+				2A92755C153EA11E00B4829D /* JOBTSecondViewController.h */,
+				2A92755D153EA11E00B4829D /* JOBTSecondViewController.m */,
+				2A927544153EA11E00B4829D /* Supporting Files */,
+			);
+			name = BTModule;
+			path = BTDemo;
+			sourceTree = "<group>";
+		};
+		2A927544153EA11E00B4829D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A927545153EA11E00B4829D /* BTDemo-Info.plist */,
+				2A927546153EA11E00B4829D /* InfoPlist.strings */,
+				2A927549153EA11E00B4829D /* main.m */,
+				2A92754B153EA11E00B4829D /* BTDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A927538153EA11E00B4829D /* BTDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A927565153EA11E00B4829D /* Build configuration list for PBXNativeTarget "BTDemo" */;
+			buildPhases = (
+				2A927535153EA11E00B4829D /* Sources */,
+				2A927536153EA11E00B4829D /* Frameworks */,
+				2A927537153EA11E00B4829D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTDemo;
+			productName = BTDemo;
+			productReference = 2A927539153EA11E00B4829D /* BTDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A927530153EA11E00B4829D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JOBT;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2A927533153EA11E00B4829D /* Build configuration list for PBXProject "BTDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A92752E153EA11E00B4829D;
+			productRefGroup = 2A92753A153EA11E00B4829D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A927538153EA11E00B4829D /* BTDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A927537153EA11E00B4829D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A927548153EA11E00B4829D /* InfoPlist.strings in Resources */,
+				2A927551153EA11E00B4829D /* MainStoryboard_iPhone.storyboard in Resources */,
+				2A927554153EA11E00B4829D /* MainStoryboard_iPad.storyboard in Resources */,
+				2A927559153EA11E00B4829D /* first.png in Resources */,
+				2A92755B153EA11E00B4829D /* first@2x.png in Resources */,
+				2A927560153EA11E00B4829D /* second.png in Resources */,
+				2A927562153EA11E00B4829D /* second@2x.png in Resources */,
+				2A01EB30156A4DCC00EAA090 /* Icon-72.png in Resources */,
+				2A01EB31156A4DCC00EAA090 /* Icon-72@2x.png in Resources */,
+				2A01EB32156A4DCC00EAA090 /* Icon.png in Resources */,
+				2A01EB33156A4DCC00EAA090 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A927535153EA11E00B4829D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A92754A153EA11E00B4829D /* main.m in Sources */,
+				2A92754E153EA11E00B4829D /* JOBTAppDelegate.m in Sources */,
+				2A927557153EA11E00B4829D /* JOBTFirstViewController.m in Sources */,
+				2A92755E153EA11E00B4829D /* JOBTSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A927546153EA11E00B4829D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A927547153EA11E00B4829D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A92754F153EA11E00B4829D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A927550153EA11E00B4829D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			path = BTDemo;
+			sourceTree = "<group>";
+		};
+		2A927552153EA11E00B4829D /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A927553153EA11E00B4829D /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			path = BTDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A927563153EA11E00B4829D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A927564153EA11E00B4829D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A927566153EA11E00B4829D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTDemo/BTDemo-Prefix.pch";
+				INFOPLIST_FILE = "BTDemo/BTDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/BTDemo/JOBluetooth/Release-iphoneos\"",
+				);
+				OTHER_CFLAGS = "-I../JOBluetooth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2A927567153EA11E00B4829D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTDemo/BTDemo-Prefix.pch";
+				INFOPLIST_FILE = "BTDemo/BTDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/BTDemo/JOBluetooth/Release-iphoneos\"",
+				);
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"-I../JOBluetooth",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A927533153EA11E00B4829D /* Build configuration list for PBXProject "BTDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A927563153EA11E00B4829D /* Debug */,
+				2A927564153EA11E00B4829D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A927565153EA11E00B4829D /* Build configuration list for PBXNativeTarget "BTDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A927566153EA11E00B4829D /* Debug */,
+				2A927567153EA11E00B4829D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A927530153EA11E00B4829D /* Project object */;
+}
